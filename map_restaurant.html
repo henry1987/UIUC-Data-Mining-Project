@@ -1,0 +1,2791 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_e87059edaa374230a1c5900008caaf6d {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.3.0/leaflet-dvf.markers.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e87059edaa374230a1c5900008caaf6d" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_e87059edaa374230a1c5900008caaf6d = L.map(
+                                  'map_e87059edaa374230a1c5900008caaf6d',
+                                  {center: [33.48980176123887,-111.99365895261988],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_06326212616c468e9af4fd4be54b8c87 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+        
+    
+            var circle_marker_a34d0de4feb047eaa7ae78486031dcf0 = L.circleMarker(
+                [33.6205679923296,-111.89783602953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_86f65d22844a46deb1bbf88911ce3a65 = L.popup({maxWidth: '300'});
+
+            
+                var html_b197fb9133e548cb997531ef614493c9 = $('<div id="html_b197fb9133e548cb997531ef614493c9" style="width: 100.0%; height: 100.0%;">Asian Island / Stars:3.97 / Senti:0.21 / (fried shrimp)</div>')[0];
+                popup_86f65d22844a46deb1bbf88911ce3a65.setContent(html_b197fb9133e548cb997531ef614493c9);
+            
+
+            circle_marker_a34d0de4feb047eaa7ae78486031dcf0.bindPopup(popup_86f65d22844a46deb1bbf88911ce3a65);
+
+            
+        
+    
+            var circle_marker_9c854315451c49afb2ce90b0b713a165 = L.circleMarker(
+                [33.48585,-112.0691813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_0e9c5d5365b142a0b1019fd0cd194471 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe1923fa33c44a7f95cc1f6c0ad79cef = $('<div id="html_fe1923fa33c44a7f95cc1f6c0ad79cef" style="width: 100.0%; height: 100.0%;">China Chili / Stars:3.79 / Senti:0.20 / (fried shrimp)</div>')[0];
+                popup_0e9c5d5365b142a0b1019fd0cd194471.setContent(html_fe1923fa33c44a7f95cc1f6c0ad79cef);
+            
+
+            circle_marker_9c854315451c49afb2ce90b0b713a165.bindPopup(popup_0e9c5d5365b142a0b1019fd0cd194471);
+
+            
+        
+    
+            var circle_marker_02e2e6f180384ebeb173a98a3f184bc6 = L.circleMarker(
+                [33.3639455,-111.8614077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_af850e52f187442eb486f62ef6e8c82f = L.popup({maxWidth: '300'});
+
+            
+                var html_69aaaeacee404fda9bb54c34efc6df38 = $('<div id="html_69aaaeacee404fda9bb54c34efc6df38" style="width: 100.0%; height: 100.0%;">Jong Wah Chinese Restaurant / Stars:3.36 / Senti:0.12 / (fried shrimp)</div>')[0];
+                popup_af850e52f187442eb486f62ef6e8c82f.setContent(html_69aaaeacee404fda9bb54c34efc6df38);
+            
+
+            circle_marker_02e2e6f180384ebeb173a98a3f184bc6.bindPopup(popup_af850e52f187442eb486f62ef6e8c82f);
+
+            
+        
+    
+            var circle_marker_694b22c6f46444209a35208b8ef80be0 = L.circleMarker(
+                [33.5108736,-112.1341836],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_e0b9084c688348d29c260e6fd4e37a7e = L.popup({maxWidth: '300'});
+
+            
+                var html_e8c1a05db57d40638190b315b4ceed52 = $('<div id="html_e8c1a05db57d40638190b315b4ceed52" style="width: 100.0%; height: 100.0%;">Great Wall Cuisine / Stars:3.81 / Senti:0.24 / (fried shrimp)</div>')[0];
+                popup_e0b9084c688348d29c260e6fd4e37a7e.setContent(html_e8c1a05db57d40638190b315b4ceed52);
+            
+
+            circle_marker_694b22c6f46444209a35208b8ef80be0.bindPopup(popup_e0b9084c688348d29c260e6fd4e37a7e);
+
+            
+        
+    
+            var circle_marker_fb9640a1d52b464ba9a1006e7991700e = L.circleMarker(
+                [33.582001,-112.221246],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_a35320dadf7142ee90b9f8efdcee9005 = L.popup({maxWidth: '300'});
+
+            
+                var html_0db0f9dded2c48bca5198ebb3e55fdd0 = $('<div id="html_0db0f9dded2c48bca5198ebb3e55fdd0" style="width: 100.0%; height: 100.0%;">Big Heng / Stars:4.23 / Senti:0.29 / (fried shrimp)</div>')[0];
+                popup_a35320dadf7142ee90b9f8efdcee9005.setContent(html_0db0f9dded2c48bca5198ebb3e55fdd0);
+            
+
+            circle_marker_fb9640a1d52b464ba9a1006e7991700e.bindPopup(popup_a35320dadf7142ee90b9f8efdcee9005);
+
+            
+        
+    
+            var circle_marker_7f8a868f308d40658efa63f24ba91a42 = L.circleMarker(
+                [33.3772818271414,-111.951815368504],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_00efa422791549048f7f0c1b03e6d35e = L.popup({maxWidth: '300'});
+
+            
+                var html_ec1ff5f5da1841faa41325297dc24f51 = $('<div id="html_ec1ff5f5da1841faa41325297dc24f51" style="width: 100.0%; height: 100.0%;">China Jade / Stars:3.83 / Senti:0.19 / (fried shrimp)</div>')[0];
+                popup_00efa422791549048f7f0c1b03e6d35e.setContent(html_ec1ff5f5da1841faa41325297dc24f51);
+            
+
+            circle_marker_7f8a868f308d40658efa63f24ba91a42.bindPopup(popup_00efa422791549048f7f0c1b03e6d35e);
+
+            
+        
+    
+            var circle_marker_1033702d779f4895afc42c45a4378f87 = L.circleMarker(
+                [33.3370652758707,-111.875395510879],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_7991f5c3973b4a8f954999d068519b00 = L.popup({maxWidth: '300'});
+
+            
+                var html_741fa50e04f248269fceca03811c1c66 = $('<div id="html_741fa50e04f248269fceca03811c1c66" style="width: 100.0%; height: 100.0%;">Phoenix Palace / Stars:3.68 / Senti:0.20 / (fried shrimp)</div>')[0];
+                popup_7991f5c3973b4a8f954999d068519b00.setContent(html_741fa50e04f248269fceca03811c1c66);
+            
+
+            circle_marker_1033702d779f4895afc42c45a4378f87.bindPopup(popup_7991f5c3973b4a8f954999d068519b00);
+
+            
+        
+    
+            var circle_marker_40f236c24a4e4a3fa9daf6fff051fde1 = L.circleMarker(
+                [33.423246,-112.240641],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_0187ff0439094aa4b415e9e7823396ec = L.popup({maxWidth: '300'});
+
+            
+                var html_eaecd24df35543a0a986347ad08aaf7b = $('<div id="html_eaecd24df35543a0a986347ad08aaf7b" style="width: 100.0%; height: 100.0%;">Blossom Asian Cuisine / Stars:4.00 / Senti:0.31 / (fried shrimp)</div>')[0];
+                popup_0187ff0439094aa4b415e9e7823396ec.setContent(html_eaecd24df35543a0a986347ad08aaf7b);
+            
+
+            circle_marker_40f236c24a4e4a3fa9daf6fff051fde1.bindPopup(popup_0187ff0439094aa4b415e9e7823396ec);
+
+            
+        
+    
+            var circle_marker_0ac623f74e49405c89935b4d8299d4a4 = L.circleMarker(
+                [33.3480423402709,-111.964952945709],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_b21429148a974037bce7f8dc22c63203 = L.popup({maxWidth: '300'});
+
+            
+                var html_5842a7fd9b7946108da9efc59d10bcfa = $('<div id="html_5842a7fd9b7946108da9efc59d10bcfa" style="width: 100.0%; height: 100.0%;">Crazy Buffet / Stars:3.04 / Senti:0.14 / (fried shrimp)</div>')[0];
+                popup_b21429148a974037bce7f8dc22c63203.setContent(html_5842a7fd9b7946108da9efc59d10bcfa);
+            
+
+            circle_marker_0ac623f74e49405c89935b4d8299d4a4.bindPopup(popup_b21429148a974037bce7f8dc22c63203);
+
+            
+        
+    
+            var circle_marker_23d3eef14b8d457c944497092527059a = L.circleMarker(
+                [33.6259946,-111.9774995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_c0bd1e40ac9e451aa81800865effcfab = L.popup({maxWidth: '300'});
+
+            
+                var html_aeeeb4683e8642a8b231cd1d163b0c1d = $('<div id="html_aeeeb4683e8642a8b231cd1d163b0c1d" style="width: 100.0%; height: 100.0%;">The Wok Express / Stars:4.35 / Senti:0.24 / (fried shrimp)</div>')[0];
+                popup_c0bd1e40ac9e451aa81800865effcfab.setContent(html_aeeeb4683e8642a8b231cd1d163b0c1d);
+            
+
+            circle_marker_23d3eef14b8d457c944497092527059a.bindPopup(popup_c0bd1e40ac9e451aa81800865effcfab);
+
+            
+        
+    
+            var circle_marker_c8fb633b89a14c308b4703c219c48a07 = L.circleMarker(
+                [33.2711907,-111.7908072],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_d4fd1b50d5e24284b3830df5a5011399 = L.popup({maxWidth: '300'});
+
+            
+                var html_49005b01b99f48e58c699bea7c5c8870 = $('<div id="html_49005b01b99f48e58c699bea7c5c8870" style="width: 100.0%; height: 100.0%;">Otaku / Stars:3.62 / Senti:0.30 / (fried shrimp)</div>')[0];
+                popup_d4fd1b50d5e24284b3830df5a5011399.setContent(html_49005b01b99f48e58c699bea7c5c8870);
+            
+
+            circle_marker_c8fb633b89a14c308b4703c219c48a07.bindPopup(popup_d4fd1b50d5e24284b3830df5a5011399);
+
+            
+        
+    
+            var circle_marker_69173b43637a4b7fbeb4793e3a1cbc87 = L.circleMarker(
+                [33.375057,-111.687177],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_2e36af7b47dd4e2ebb7a9f2a274678c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_c94d1fc5921a41cbbbce982954264aeb = $('<div id="html_c94d1fc5921a41cbbbce982954264aeb" style="width: 100.0%; height: 100.0%;">China City Super Buffet / Stars:3.22 / Senti:0.22 / (fried shrimp)</div>')[0];
+                popup_2e36af7b47dd4e2ebb7a9f2a274678c5.setContent(html_c94d1fc5921a41cbbbce982954264aeb);
+            
+
+            circle_marker_69173b43637a4b7fbeb4793e3a1cbc87.bindPopup(popup_2e36af7b47dd4e2ebb7a9f2a274678c5);
+
+            
+        
+    
+            var circle_marker_b86c0ac07a9640b3a0adade4af3825fc = L.circleMarker(
+                [33.494646,-111.9947],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_2b086734f8b146068b898536691ddf35 = L.popup({maxWidth: '300'});
+
+            
+                var html_e39c4650bd3b47c7b85809ec52be1b7f = $('<div id="html_e39c4650bd3b47c7b85809ec52be1b7f" style="width: 100.0%; height: 100.0%;">Little Shanghai / Stars:3.46 / Senti:0.20 / (fried shrimp)</div>')[0];
+                popup_2b086734f8b146068b898536691ddf35.setContent(html_e39c4650bd3b47c7b85809ec52be1b7f);
+            
+
+            circle_marker_b86c0ac07a9640b3a0adade4af3825fc.bindPopup(popup_2b086734f8b146068b898536691ddf35);
+
+            
+        
+    
+            var circle_marker_d8b549e6954541d59c57c2065d375973 = L.circleMarker(
+                [33.3814663,-111.5985729],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_575d082e803345f0bf51a6ed335d7be5 = L.popup({maxWidth: '300'});
+
+            
+                var html_0aa510d87d0d44f2bd11bb1f10928a25 = $('<div id="html_0aa510d87d0d44f2bd11bb1f10928a25" style="width: 100.0%; height: 100.0%;">1 Eastern Super Buffet / Stars:3.48 / Senti:0.21 / (fried shrimp)</div>')[0];
+                popup_575d082e803345f0bf51a6ed335d7be5.setContent(html_0aa510d87d0d44f2bd11bb1f10928a25);
+            
+
+            circle_marker_d8b549e6954541d59c57c2065d375973.bindPopup(popup_575d082e803345f0bf51a6ed335d7be5);
+
+            
+        
+    
+            var circle_marker_1c46562388254441b98d022e4e67b3a7 = L.circleMarker(
+                [33.3048512833752,-111.756019592285],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_28a53f2319bd42f2b5f77114fcf4ab2d = L.popup({maxWidth: '300'});
+
+            
+                var html_cae52b589cb7423299162ae964cb01f6 = $('<div id="html_cae52b589cb7423299162ae964cb01f6" style="width: 100.0%; height: 100.0%;">J &amp; K Gourmet / Stars:3.93 / Senti:0.27 / (fried shrimp)</div>')[0];
+                popup_28a53f2319bd42f2b5f77114fcf4ab2d.setContent(html_cae52b589cb7423299162ae964cb01f6);
+            
+
+            circle_marker_1c46562388254441b98d022e4e67b3a7.bindPopup(popup_28a53f2319bd42f2b5f77114fcf4ab2d);
+
+            
+        
+    
+            var circle_marker_591f196ad6de4e70b3a6afb6a6234c14 = L.circleMarker(
+                [33.578935,-111.886634],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_5ffe0d6ec78442dd9568eb005b710464 = L.popup({maxWidth: '300'});
+
+            
+                var html_8f497d2febe64312b4d9b911b9ace1d0 = $('<div id="html_8f497d2febe64312b4d9b911b9ace1d0" style="width: 100.0%; height: 100.0%;">Canton Dragon / Stars:3.43 / Senti:0.20 / (fried shrimp)</div>')[0];
+                popup_5ffe0d6ec78442dd9568eb005b710464.setContent(html_8f497d2febe64312b4d9b911b9ace1d0);
+            
+
+            circle_marker_591f196ad6de4e70b3a6afb6a6234c14.bindPopup(popup_5ffe0d6ec78442dd9568eb005b710464);
+
+            
+        
+    
+            var circle_marker_f60910073a5245f9ac6f1ca6e80add4b = L.circleMarker(
+                [33.597378,-112.1197753],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_89bf2ad58f404b3f8b517fe2fdd7bda9 = L.popup({maxWidth: '300'});
+
+            
+                var html_64fc7ef0a98b48a382f70edf79b8daf5 = $('<div id="html_64fc7ef0a98b48a382f70edf79b8daf5" style="width: 100.0%; height: 100.0%;">China Harvest Buffet / Stars:3.05 / Senti:0.17 / (fried shrimp)</div>')[0];
+                popup_89bf2ad58f404b3f8b517fe2fdd7bda9.setContent(html_64fc7ef0a98b48a382f70edf79b8daf5);
+            
+
+            circle_marker_f60910073a5245f9ac6f1ca6e80add4b.bindPopup(popup_89bf2ad58f404b3f8b517fe2fdd7bda9);
+
+            
+        
+    
+            var circle_marker_716d18fca7654ec2b2097c3fa33d3b64 = L.circleMarker(
+                [33.5963866,-112.1201739],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_fbb5ac81db24413bbea43d43acdc227d = L.popup({maxWidth: '300'});
+
+            
+                var html_aab3b6d6089b466d89e850c3d2e97866 = $('<div id="html_aab3b6d6089b466d89e850c3d2e97866" style="width: 100.0%; height: 100.0%;">Shangri-La Chinese / Stars:3.97 / Senti:0.27 / (fried shrimp)</div>')[0];
+                popup_fbb5ac81db24413bbea43d43acdc227d.setContent(html_aab3b6d6089b466d89e850c3d2e97866);
+            
+
+            circle_marker_716d18fca7654ec2b2097c3fa33d3b64.bindPopup(popup_fbb5ac81db24413bbea43d43acdc227d);
+
+            
+        
+    
+            var circle_marker_bb139795f9814b948fb2fbeda2590cf5 = L.circleMarker(
+                [33.6388397,-112.3036611],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_03d52838476b4d148766e3b6f4512c48 = L.popup({maxWidth: '300'});
+
+            
+                var html_398f3b340ac1436e8b0c6e3048a42d8d = $('<div id="html_398f3b340ac1436e8b0c6e3048a42d8d" style="width: 100.0%; height: 100.0%;">Ann&#39;s Asian Bistro &amp; Bar / Stars:3.83 / Senti:0.30 / (fried shrimp)</div>')[0];
+                popup_03d52838476b4d148766e3b6f4512c48.setContent(html_398f3b340ac1436e8b0c6e3048a42d8d);
+            
+
+            circle_marker_bb139795f9814b948fb2fbeda2590cf5.bindPopup(popup_03d52838476b4d148766e3b6f4512c48);
+
+            
+        
+    
+            var circle_marker_08c97da117a54bb8bd2b42593daedb99 = L.circleMarker(
+                [33.6761682,-112.2760197],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_b801c8eb54dd4fdaa821007ea9e53796 = L.popup({maxWidth: '300'});
+
+            
+                var html_7257da0c083743fa80fae698c4cc3cf2 = $('<div id="html_7257da0c083743fa80fae698c4cc3cf2" style="width: 100.0%; height: 100.0%;">Oriental Buffet Grill &amp; Sushi / Stars:3.59 / Senti:0.26 / (fried shrimp)</div>')[0];
+                popup_b801c8eb54dd4fdaa821007ea9e53796.setContent(html_7257da0c083743fa80fae698c4cc3cf2);
+            
+
+            circle_marker_08c97da117a54bb8bd2b42593daedb99.bindPopup(popup_b801c8eb54dd4fdaa821007ea9e53796);
+
+            
+        
+    
+            var circle_marker_17193b866f874c899456fdee96f98ce6 = L.circleMarker(
+                [33.6362401,-111.9213347],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_5c302523bd8242dc8b0408726be6a375 = L.popup({maxWidth: '300'});
+
+            
+                var html_1dd04196546a43e082b70eec8d546896 = $('<div id="html_1dd04196546a43e082b70eec8d546896" style="width: 100.0%; height: 100.0%;">Flo&#39;s / Stars:3.51 / Senti:0.23 / (fried shrimp)</div>')[0];
+                popup_5c302523bd8242dc8b0408726be6a375.setContent(html_1dd04196546a43e082b70eec8d546896);
+            
+
+            circle_marker_17193b866f874c899456fdee96f98ce6.bindPopup(popup_5c302523bd8242dc8b0408726be6a375);
+
+            
+        
+    
+            var circle_marker_575ec10e12c143eea1c39a613317b0d1 = L.circleMarker(
+                [33.6391367,-112.1492386],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_46a4537f52b642fe9e24acba8f190968 = L.popup({maxWidth: '300'});
+
+            
+                var html_c0f42e73352740a2ace1be918e285031 = $('<div id="html_c0f42e73352740a2ace1be918e285031" style="width: 100.0%; height: 100.0%;">Shanghai Buffet / Stars:3.28 / Senti:0.16 / (fried shrimp)</div>')[0];
+                popup_46a4537f52b642fe9e24acba8f190968.setContent(html_c0f42e73352740a2ace1be918e285031);
+            
+
+            circle_marker_575ec10e12c143eea1c39a613317b0d1.bindPopup(popup_46a4537f52b642fe9e24acba8f190968);
+
+            
+        
+    
+            var circle_marker_094914fca7504a3598e58e6abf67f66a = L.circleMarker(
+                [33.3783141,-111.9223494],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_c194ffa8a37c4a788f758f3439b007e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_735215229fa340c882af15d40c724d2a = $('<div id="html_735215229fa340c882af15d40c724d2a" style="width: 100.0%; height: 100.0%;">Lychee Inn / Stars:3.95 / Senti:0.27 / (fried shrimp)</div>')[0];
+                popup_c194ffa8a37c4a788f758f3439b007e9.setContent(html_735215229fa340c882af15d40c724d2a);
+            
+
+            circle_marker_094914fca7504a3598e58e6abf67f66a.bindPopup(popup_c194ffa8a37c4a788f758f3439b007e9);
+
+            
+        
+    
+            var circle_marker_2b6359f410144098a65d19e7b5779d66 = L.circleMarker(
+                [33.4304474,-111.8737232],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_df02f20d1f224c429fd04aa7c3774a14 = L.popup({maxWidth: '300'});
+
+            
+                var html_da85ad6dd2594dce87df03e7913f452e = $('<div id="html_da85ad6dd2594dce87df03e7913f452e" style="width: 100.0%; height: 100.0%;">Volcano Buffet / Stars:3.14 / Senti:0.18 / (fried shrimp)</div>')[0];
+                popup_df02f20d1f224c429fd04aa7c3774a14.setContent(html_da85ad6dd2594dce87df03e7913f452e);
+            
+
+            circle_marker_2b6359f410144098a65d19e7b5779d66.bindPopup(popup_df02f20d1f224c429fd04aa7c3774a14);
+
+            
+        
+    
+            var circle_marker_ebf6babfab10499b9bdec7705ef921c3 = L.circleMarker(
+                [33.5819949,-112.2370076],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_7286e2da7a414784a35c48e58d34f0d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_5236b88830e44784819a376b490a3f32 = $('<div id="html_5236b88830e44784819a376b490a3f32" style="width: 100.0%; height: 100.0%;">Wong&#39;s Jr / Stars:3.61 / Senti:0.17 / (fried shrimp)</div>')[0];
+                popup_7286e2da7a414784a35c48e58d34f0d4.setContent(html_5236b88830e44784819a376b490a3f32);
+            
+
+            circle_marker_ebf6babfab10499b9bdec7705ef921c3.bindPopup(popup_7286e2da7a414784a35c48e58d34f0d4);
+
+            
+        
+    
+            var circle_marker_761b4fda03c7465eae80f12efd0ba5aa = L.circleMarker(
+                [33.546608,-112.047023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_8a7df635f63643c4b837ffd4c6dcbb49 = L.popup({maxWidth: '300'});
+
+            
+                var html_f3c8919f36c14c059c5fbce6b7dce45b = $('<div id="html_f3c8919f36c14c059c5fbce6b7dce45b" style="width: 100.0%; height: 100.0%;">Bamboo China Restaurant / Stars:3.48 / Senti:0.19 / (fried shrimp)</div>')[0];
+                popup_8a7df635f63643c4b837ffd4c6dcbb49.setContent(html_f3c8919f36c14c059c5fbce6b7dce45b);
+            
+
+            circle_marker_761b4fda03c7465eae80f12efd0ba5aa.bindPopup(popup_8a7df635f63643c4b837ffd4c6dcbb49);
+
+            
+        
+    
+            var circle_marker_6b19180c9410440894fccd8a5854aa3e = L.circleMarker(
+                [33.6034616,-112.036653],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_e040cbe75f4f4002a29255f4f23d8e39 = L.popup({maxWidth: '300'});
+
+            
+                var html_0f9975a0180c4337bfda8d5245e75c61 = $('<div id="html_0f9975a0180c4337bfda8d5245e75c61" style="width: 100.0%; height: 100.0%;">North China Restaurant / Stars:3.40 / Senti:0.08 / (fried shrimp)</div>')[0];
+                popup_e040cbe75f4f4002a29255f4f23d8e39.setContent(html_0f9975a0180c4337bfda8d5245e75c61);
+            
+
+            circle_marker_6b19180c9410440894fccd8a5854aa3e.bindPopup(popup_e040cbe75f4f4002a29255f4f23d8e39);
+
+            
+        
+    
+            var circle_marker_b868c5d5ad4d4fc383fbf0223b1d42ee = L.circleMarker(
+                [33.5831363850351,-111.894196271896],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_8ecb2b1f24c84c8cb52c65b6c871bded = L.popup({maxWidth: '300'});
+
+            
+                var html_7b64e688a5e64a1d875051848c783f76 = $('<div id="html_7b64e688a5e64a1d875051848c783f76" style="width: 100.0%; height: 100.0%;">Bamboo Club / Stars:3.13 / Senti:0.20 / (fried shrimp)</div>')[0];
+                popup_8ecb2b1f24c84c8cb52c65b6c871bded.setContent(html_7b64e688a5e64a1d875051848c783f76);
+            
+
+            circle_marker_b868c5d5ad4d4fc383fbf0223b1d42ee.bindPopup(popup_8ecb2b1f24c84c8cb52c65b6c871bded);
+
+            
+        
+    
+            var circle_marker_85bfeef6ac5f468dbc9f3142f774ec04 = L.circleMarker(
+                [33.2753278,-111.8598533],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_8cb5cb8eb3bc477399434ca7d21f8949 = L.popup({maxWidth: '300'});
+
+            
+                var html_b58a9294a53845929b85129da0440f10 = $('<div id="html_b58a9294a53845929b85129da0440f10" style="width: 100.0%; height: 100.0%;">Beijing Restaurant / Stars:3.80 / Senti:0.19 / (fried shrimp)</div>')[0];
+                popup_8cb5cb8eb3bc477399434ca7d21f8949.setContent(html_b58a9294a53845929b85129da0440f10);
+            
+
+            circle_marker_85bfeef6ac5f468dbc9f3142f774ec04.bindPopup(popup_8cb5cb8eb3bc477399434ca7d21f8949);
+
+            
+        
+    
+            var circle_marker_0d955c24fe0d479c8d1c4845b1cac209 = L.circleMarker(
+                [33.6234604140552,-111.926204898515],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_a80eecd1760f485db27badd638e5aa29 = L.popup({maxWidth: '300'});
+
+            
+                var html_a1b492e1734d475fb6d47749c620d1af = $('<div id="html_a1b492e1734d475fb6d47749c620d1af" style="width: 100.0%; height: 100.0%;">P F Chang&#39;s China Bistro / Stars:3.18 / Senti:0.19 / (fried shrimp)</div>')[0];
+                popup_a80eecd1760f485db27badd638e5aa29.setContent(html_a1b492e1734d475fb6d47749c620d1af);
+            
+
+            circle_marker_0d955c24fe0d479c8d1c4845b1cac209.bindPopup(popup_a80eecd1760f485db27badd638e5aa29);
+
+            
+        
+    
+            var circle_marker_b8241be6adbd40688b2accb5e510e38b = L.circleMarker(
+                [33.59836,-111.9814078],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_b10e3e908bd247d6bf4a01ef86405b4c = L.popup({maxWidth: '300'});
+
+            
+                var html_f5bf7fe524944fb2849d600a4b639566 = $('<div id="html_f5bf7fe524944fb2849d600a4b639566" style="width: 100.0%; height: 100.0%;">Golden Wok Chinese Restaurant / Stars:3.33 / Senti:0.21 / (fried shrimp)</div>')[0];
+                popup_b10e3e908bd247d6bf4a01ef86405b4c.setContent(html_f5bf7fe524944fb2849d600a4b639566);
+            
+
+            circle_marker_b8241be6adbd40688b2accb5e510e38b.bindPopup(popup_b10e3e908bd247d6bf4a01ef86405b4c);
+
+            
+        
+    
+            var circle_marker_37dcf69c5f3d461a8835eff3d9e27f01 = L.circleMarker(
+                [33.488489,-112.100389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_7481df86bea946f3afd08252b936770f = L.popup({maxWidth: '300'});
+
+            
+                var html_a1c8b659d47547378084a722080d60c3 = $('<div id="html_a1c8b659d47547378084a722080d60c3" style="width: 100.0%; height: 100.0%;">Maxim Restaurant / Stars:3.98 / Senti:0.26 / (fried shrimp)</div>')[0];
+                popup_7481df86bea946f3afd08252b936770f.setContent(html_a1c8b659d47547378084a722080d60c3);
+            
+
+            circle_marker_37dcf69c5f3d461a8835eff3d9e27f01.bindPopup(popup_7481df86bea946f3afd08252b936770f);
+
+            
+        
+    
+            var circle_marker_45fe29b495884c8c8f9db95d48fa9b5a = L.circleMarker(
+                [33.6710222,-112.1851805],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_3bf00ebf14b442fb8a2a4e705e7c3f12 = L.popup({maxWidth: '300'});
+
+            
+                var html_18f068fca8cf4e5fa7eaf2bd83c7bee0 = $('<div id="html_18f068fca8cf4e5fa7eaf2bd83c7bee0" style="width: 100.0%; height: 100.0%;">Abacus Inn Chinese Restaurant-Arrowhead / Stars:3.31 / Senti:0.14 / (fried shrimp)</div>')[0];
+                popup_3bf00ebf14b442fb8a2a4e705e7c3f12.setContent(html_18f068fca8cf4e5fa7eaf2bd83c7bee0);
+            
+
+            circle_marker_45fe29b495884c8c8f9db95d48fa9b5a.bindPopup(popup_3bf00ebf14b442fb8a2a4e705e7c3f12);
+
+            
+        
+    
+            var circle_marker_439321fbdfe1436f9378f65593178443 = L.circleMarker(
+                [33.413243,-111.684821],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_ab1a678f059d40458cf949e213f9f222 = L.popup({maxWidth: '300'});
+
+            
+                var html_36609e4868044ab6a573996313865f02 = $('<div id="html_36609e4868044ab6a573996313865f02" style="width: 100.0%; height: 100.0%;">Yen Ching / Stars:3.50 / Senti:0.11 / (fried shrimp)</div>')[0];
+                popup_ab1a678f059d40458cf949e213f9f222.setContent(html_36609e4868044ab6a573996313865f02);
+            
+
+            circle_marker_439321fbdfe1436f9378f65593178443.bindPopup(popup_ab1a678f059d40458cf949e213f9f222);
+
+            
+        
+    
+            var circle_marker_0b4935967e0142af89965cb2456b57bd = L.circleMarker(
+                [33.640437,-112.0677697],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_c42d45fa7628419d8137a8f44c0c7ea9 = L.popup({maxWidth: '300'});
+
+            
+                var html_2d97bcd60dfc4f74a7453bb25b5badd0 = $('<div id="html_2d97bcd60dfc4f74a7453bb25b5badd0" style="width: 100.0%; height: 100.0%;">Flamingo Palace / Stars:3.64 / Senti:0.18 / (fried shrimp)</div>')[0];
+                popup_c42d45fa7628419d8137a8f44c0c7ea9.setContent(html_2d97bcd60dfc4f74a7453bb25b5badd0);
+            
+
+            circle_marker_0b4935967e0142af89965cb2456b57bd.bindPopup(popup_c42d45fa7628419d8137a8f44c0c7ea9);
+
+            
+        
+    
+            var circle_marker_161dfb3206604f2eb7ad087550a20d0e = L.circleMarker(
+                [33.33563,-111.854277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_687c18acd75f455cb271de372223ecf4 = L.popup({maxWidth: '300'});
+
+            
+                var html_6451dedba9ab43be85ebd897ca29eb7e = $('<div id="html_6451dedba9ab43be85ebd897ca29eb7e" style="width: 100.0%; height: 100.0%;">Jen Buffet / Stars:4.00 / Senti:0.23 / (fried shrimp)</div>')[0];
+                popup_687c18acd75f455cb271de372223ecf4.setContent(html_6451dedba9ab43be85ebd897ca29eb7e);
+            
+
+            circle_marker_161dfb3206604f2eb7ad087550a20d0e.bindPopup(popup_687c18acd75f455cb271de372223ecf4);
+
+            
+        
+    
+            var circle_marker_c72538224f1b47e395f153514cca06af = L.circleMarker(
+                [33.3782143,-111.9362088],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_0bb69761dae94a47aa23d186a8506398 = L.popup({maxWidth: '300'});
+
+            
+                var html_905ced93f40845d8ba09e2fce06cc2d3 = $('<div id="html_905ced93f40845d8ba09e2fce06cc2d3" style="width: 100.0%; height: 100.0%;">Beijing Express / Stars:3.82 / Senti:0.23 / (fried shrimp)</div>')[0];
+                popup_0bb69761dae94a47aa23d186a8506398.setContent(html_905ced93f40845d8ba09e2fce06cc2d3);
+            
+
+            circle_marker_c72538224f1b47e395f153514cca06af.bindPopup(popup_0bb69761dae94a47aa23d186a8506398);
+
+            
+        
+    
+            var circle_marker_a0b0c6a2af0f49609dba0b51c6f1307a = L.circleMarker(
+                [33.4552907,-111.9878697],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_36f4de6bd3f24f24b7cfae716186ddea = L.popup({maxWidth: '300'});
+
+            
+                var html_203a75c1d82b4cb89613a9ad06537a56 = $('<div id="html_203a75c1d82b4cb89613a9ad06537a56" style="width: 100.0%; height: 100.0%;">Golden Buddha / Stars:3.11 / Senti:0.15 / (fried shrimp)</div>')[0];
+                popup_36f4de6bd3f24f24b7cfae716186ddea.setContent(html_203a75c1d82b4cb89613a9ad06537a56);
+            
+
+            circle_marker_a0b0c6a2af0f49609dba0b51c6f1307a.bindPopup(popup_36f4de6bd3f24f24b7cfae716186ddea);
+
+            
+        
+    
+            var circle_marker_812a537dd757429c99b0a5dbdc2571a2 = L.circleMarker(
+                [33.336409,-111.876379],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_f04e0ca606f445d2988511b517b18589 = L.popup({maxWidth: '300'});
+
+            
+                var html_1f24dec6e35142ea93133439787480a4 = $('<div id="html_1f24dec6e35142ea93133439787480a4" style="width: 100.0%; height: 100.0%;">China Magic Noodle House / Stars:4.01 / Senti:0.27 / (fried shrimp)</div>')[0];
+                popup_f04e0ca606f445d2988511b517b18589.setContent(html_1f24dec6e35142ea93133439787480a4);
+            
+
+            circle_marker_812a537dd757429c99b0a5dbdc2571a2.bindPopup(popup_f04e0ca606f445d2988511b517b18589);
+
+            
+        
+    
+            var circle_marker_2801a07ac09045c0896577e3bafbdd5c = L.circleMarker(
+                [33.6123924255371,-112.012565612793],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_4fc0620e83d74b20a9db497026406e31 = L.popup({maxWidth: '300'});
+
+            
+                var html_f2308068bde24766b7b3573a3bf5bf9e = $('<div id="html_f2308068bde24766b7b3573a3bf5bf9e" style="width: 100.0%; height: 100.0%;">Dragon Palace / Stars:3.84 / Senti:0.21 / (fried shrimp)</div>')[0];
+                popup_4fc0620e83d74b20a9db497026406e31.setContent(html_f2308068bde24766b7b3573a3bf5bf9e);
+            
+
+            circle_marker_2801a07ac09045c0896577e3bafbdd5c.bindPopup(popup_4fc0620e83d74b20a9db497026406e31);
+
+            
+        
+    
+            var circle_marker_0a4aed570fcd4751813e04a848a2948e = L.circleMarker(
+                [33.4948735,-112.3390531],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_447d6bc1b58e4eb591e15a586b7012ef = L.popup({maxWidth: '300'});
+
+            
+                var html_23d1c06fb07e408bbed9269888da7a45 = $('<div id="html_23d1c06fb07e408bbed9269888da7a45" style="width: 100.0%; height: 100.0%;">China Red Cafe / Stars:3.81 / Senti:0.23 / (fried shrimp)</div>')[0];
+                popup_447d6bc1b58e4eb591e15a586b7012ef.setContent(html_23d1c06fb07e408bbed9269888da7a45);
+            
+
+            circle_marker_0a4aed570fcd4751813e04a848a2948e.bindPopup(popup_447d6bc1b58e4eb591e15a586b7012ef);
+
+            
+        
+    
+            var circle_marker_05c4b24664ae4d809e2932d43a7791a0 = L.circleMarker(
+                [33.4514813,-112.0906616],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_2ec3e56c012c497293ab0de9a41a961d = L.popup({maxWidth: '300'});
+
+            
+                var html_54c8fce35c6f4edbb4e4a8dd4c974811 = $('<div id="html_54c8fce35c6f4edbb4e4a8dd4c974811" style="width: 100.0%; height: 100.0%;">Golden Moon Palace Restaurant / Stars:3.12 / Senti:0.12 / (fried shrimp)</div>')[0];
+                popup_2ec3e56c012c497293ab0de9a41a961d.setContent(html_54c8fce35c6f4edbb4e4a8dd4c974811);
+            
+
+            circle_marker_05c4b24664ae4d809e2932d43a7791a0.bindPopup(popup_2ec3e56c012c497293ab0de9a41a961d);
+
+            
+        
+    
+            var circle_marker_995a0021de384cefb193b195f3e74b58 = L.circleMarker(
+                [33.612131,-112.1834664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_5954a883beb34b9993fb7f8a5a1fafdd = L.popup({maxWidth: '300'});
+
+            
+                var html_1ed92cef37ef42ffb6e43be57b80a2b3 = $('<div id="html_1ed92cef37ef42ffb6e43be57b80a2b3" style="width: 100.0%; height: 100.0%;">Cafe China / Stars:4.07 / Senti:0.26 / (fried shrimp)</div>')[0];
+                popup_5954a883beb34b9993fb7f8a5a1fafdd.setContent(html_1ed92cef37ef42ffb6e43be57b80a2b3);
+            
+
+            circle_marker_995a0021de384cefb193b195f3e74b58.bindPopup(popup_5954a883beb34b9993fb7f8a5a1fafdd);
+
+            
+        
+    
+            var circle_marker_95759525826a44e3914e8fe622eb1ee3 = L.circleMarker(
+                [33.6106166,-112.1844695],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_07caf56cb3cb4a628cb8027d017cbcb3 = L.popup({maxWidth: '300'});
+
+            
+                var html_6610c914e7964968a8ed1f7ac031b697 = $('<div id="html_6610c914e7964968a8ed1f7ac031b697" style="width: 100.0%; height: 100.0%;">Golden Rice Express / Stars:3.47 / Senti:0.11 / (fried shrimp)</div>')[0];
+                popup_07caf56cb3cb4a628cb8027d017cbcb3.setContent(html_6610c914e7964968a8ed1f7ac031b697);
+            
+
+            circle_marker_95759525826a44e3914e8fe622eb1ee3.bindPopup(popup_07caf56cb3cb4a628cb8027d017cbcb3);
+
+            
+        
+    
+            var circle_marker_c09193ecfb724173890387d76f6f4f2b = L.circleMarker(
+                [33.5963427,-112.1666602],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_f94178073be0452a91ea2bd8d9373d41 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8f21b62a7544d76aa1a3007eecc122f = $('<div id="html_e8f21b62a7544d76aa1a3007eecc122f" style="width: 100.0%; height: 100.0%;">New York Wok / Stars:3.36 / Senti:0.17 / (fried shrimp)</div>')[0];
+                popup_f94178073be0452a91ea2bd8d9373d41.setContent(html_e8f21b62a7544d76aa1a3007eecc122f);
+            
+
+            circle_marker_c09193ecfb724173890387d76f6f4f2b.bindPopup(popup_f94178073be0452a91ea2bd8d9373d41);
+
+            
+        
+    
+            var circle_marker_f932b25fc06a4615befcea1a6fa8dd1f = L.circleMarker(
+                [33.33563,-111.854277],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_19bb159f33e24cdb9eb39600668440b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_fd318174bec9421285169b839b0524a9 = $('<div id="html_fd318174bec9421285169b839b0524a9" style="width: 100.0%; height: 100.0%;">Yummy Buffet / Stars:3.26 / Senti:0.14 / (fried shrimp)</div>')[0];
+                popup_19bb159f33e24cdb9eb39600668440b2.setContent(html_fd318174bec9421285169b839b0524a9);
+            
+
+            circle_marker_f932b25fc06a4615befcea1a6fa8dd1f.bindPopup(popup_19bb159f33e24cdb9eb39600668440b2);
+
+            
+        
+    
+            var circle_marker_435cdb339cf4414b86c70d9ca6593b2f = L.circleMarker(
+                [33.3783016,-111.906522],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_d12f39421c954f5bb6228499018f6394 = L.popup({maxWidth: '300'});
+
+            
+                var html_d3187498196a481b9989fc2a1971fd0e = $('<div id="html_d3187498196a481b9989fc2a1971fd0e" style="width: 100.0%; height: 100.0%;">Wong&#39;s Place / Stars:3.81 / Senti:0.22 / (fried shrimp)</div>')[0];
+                popup_d12f39421c954f5bb6228499018f6394.setContent(html_d3187498196a481b9989fc2a1971fd0e);
+            
+
+            circle_marker_435cdb339cf4414b86c70d9ca6593b2f.bindPopup(popup_d12f39421c954f5bb6228499018f6394);
+
+            
+        
+    
+            var circle_marker_bde218da576440a8bb00499fcd2ec686 = L.circleMarker(
+                [33.494108,-112.287703],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_f45022b2d3a54106a1a841319f7474f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_f733b9591a0d4b20886dcd471110bb25 = $('<div id="html_f733b9591a0d4b20886dcd471110bb25" style="width: 100.0%; height: 100.0%;">Wong&#39;s Restaurant / Stars:3.96 / Senti:0.24 / (fried shrimp)</div>')[0];
+                popup_f45022b2d3a54106a1a841319f7474f6.setContent(html_f733b9591a0d4b20886dcd471110bb25);
+            
+
+            circle_marker_bde218da576440a8bb00499fcd2ec686.bindPopup(popup_f45022b2d3a54106a1a841319f7474f6);
+
+            
+        
+    
+            var circle_marker_5d89110d02af4508a41deaac53633600 = L.circleMarker(
+                [33.3003980129221,-111.74266192922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_bf6f40d39d2440a0a6478c23b3616018 = L.popup({maxWidth: '300'});
+
+            
+                var html_91c610ff9061409ebe455453adca620b = $('<div id="html_91c610ff9061409ebe455453adca620b" style="width: 100.0%; height: 100.0%;">Chen&#39;s Chinese Bistro / Stars:4.02 / Senti:0.27 / (fried shrimp)</div>')[0];
+                popup_bf6f40d39d2440a0a6478c23b3616018.setContent(html_91c610ff9061409ebe455453adca620b);
+            
+
+            circle_marker_5d89110d02af4508a41deaac53633600.bindPopup(popup_bf6f40d39d2440a0a6478c23b3616018);
+
+            
+        
+    
+            var circle_marker_c1dacab005c04798a450d7771d804182 = L.circleMarker(
+                [33.321017,-111.860585],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_37601148af8a4663add4af840b2ef376 = L.popup({maxWidth: '300'});
+
+            
+                var html_1f0ddc2805414381854d7b0c479940cd = $('<div id="html_1f0ddc2805414381854d7b0c479940cd" style="width: 100.0%; height: 100.0%;">China King / Stars:3.74 / Senti:0.20 / (fried shrimp)</div>')[0];
+                popup_37601148af8a4663add4af840b2ef376.setContent(html_1f0ddc2805414381854d7b0c479940cd);
+            
+
+            circle_marker_c1dacab005c04798a450d7771d804182.bindPopup(popup_37601148af8a4663add4af840b2ef376);
+
+            
+        
+    
+            var circle_marker_29d833d73da94d928c15825c1c600589 = L.circleMarker(
+                [33.570325,-111.8890886],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_5e4798a8ae844e7b8aac39f29429d93e = L.popup({maxWidth: '300'});
+
+            
+                var html_df96d2841d3c4a3ea99baa97fe2f534a = $('<div id="html_df96d2841d3c4a3ea99baa97fe2f534a" style="width: 100.0%; height: 100.0%;">Red House / Stars:3.65 / Senti:0.19 / (fried shrimp)</div>')[0];
+                popup_5e4798a8ae844e7b8aac39f29429d93e.setContent(html_df96d2841d3c4a3ea99baa97fe2f534a);
+            
+
+            circle_marker_29d833d73da94d928c15825c1c600589.bindPopup(popup_5e4798a8ae844e7b8aac39f29429d93e);
+
+            
+        
+    
+            var circle_marker_92672603bb8742f7ae5940d224067362 = L.circleMarker(
+                [33.673322,-112.11792],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_5d75e2f415234aef98232fa9365f0574 = L.popup({maxWidth: '300'});
+
+            
+                var html_e523cee54fb1466e9be51178d2844b79 = $('<div id="html_e523cee54fb1466e9be51178d2844b79" style="width: 100.0%; height: 100.0%;">101 Asian Buffet / Stars:3.08 / Senti:0.21 / (fried shrimp)</div>')[0];
+                popup_5d75e2f415234aef98232fa9365f0574.setContent(html_e523cee54fb1466e9be51178d2844b79);
+            
+
+            circle_marker_92672603bb8742f7ae5940d224067362.bindPopup(popup_5d75e2f415234aef98232fa9365f0574);
+
+            
+        
+    
+            var circle_marker_5215b006419c40f6b7b91db653435c50 = L.circleMarker(
+                [33.2508615,-111.5616801],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_55da4e4aade34e9891f2d273905b239b = L.popup({maxWidth: '300'});
+
+            
+                var html_0b4abc026bb64096b04459c8b2a8eea3 = $('<div id="html_0b4abc026bb64096b04459c8b2a8eea3" style="width: 100.0%; height: 100.0%;">Moon China / Stars:3.38 / Senti:0.15 / (fried shrimp)</div>')[0];
+                popup_55da4e4aade34e9891f2d273905b239b.setContent(html_0b4abc026bb64096b04459c8b2a8eea3);
+            
+
+            circle_marker_5215b006419c40f6b7b91db653435c50.bindPopup(popup_55da4e4aade34e9891f2d273905b239b);
+
+            
+        
+    
+            var circle_marker_f09ffe553bbb4ace895a8649370b8413 = L.circleMarker(
+                [33.4133505,-111.8759922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_8b7f3e8b0e874ddd937f0f9721a73d10 = L.popup({maxWidth: '300'});
+
+            
+                var html_fd13e731def649bda5f126e2bd9c9d5b = $('<div id="html_fd13e731def649bda5f126e2bd9c9d5b" style="width: 100.0%; height: 100.0%;">Mekong Palace / Stars:3.59 / Senti:0.20 / (fried shrimp)</div>')[0];
+                popup_8b7f3e8b0e874ddd937f0f9721a73d10.setContent(html_fd13e731def649bda5f126e2bd9c9d5b);
+            
+
+            circle_marker_f09ffe553bbb4ace895a8649370b8413.bindPopup(popup_8b7f3e8b0e874ddd937f0f9721a73d10);
+
+            
+        
+    
+            var circle_marker_de5323c9cc4e44fba0cc54e5caa9d618 = L.circleMarker(
+                [33.574508,-111.90429],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_5bd7c449039d4f678e6e7179b6cdc138 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e2190758a39407b9fa3c801ce87d3a6 = $('<div id="html_9e2190758a39407b9fa3c801ce87d3a6" style="width: 100.0%; height: 100.0%;">Joyful Chinese Dining / Stars:3.86 / Senti:0.20 / (fried shrimp)</div>')[0];
+                popup_5bd7c449039d4f678e6e7179b6cdc138.setContent(html_9e2190758a39407b9fa3c801ce87d3a6);
+            
+
+            circle_marker_de5323c9cc4e44fba0cc54e5caa9d618.bindPopup(popup_5bd7c449039d4f678e6e7179b6cdc138);
+
+            
+        
+    
+            var circle_marker_453444d9872f407981135e5f4e983a19 = L.circleMarker(
+                [33.5972304953165,-112.15219259262099],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_b7386764fd2043e7a5193a4ba6d218e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_bf51e85f38ee459f94a5c710f8ec2592 = $('<div id="html_bf51e85f38ee459f94a5c710f8ec2592" style="width: 100.0%; height: 100.0%;">Chung Ming Restaurant / Stars:3.67 / Senti:0.24 / (fried shrimp)</div>')[0];
+                popup_b7386764fd2043e7a5193a4ba6d218e6.setContent(html_bf51e85f38ee459f94a5c710f8ec2592);
+            
+
+            circle_marker_453444d9872f407981135e5f4e983a19.bindPopup(popup_b7386764fd2043e7a5193a4ba6d218e6);
+
+            
+        
+    
+            var circle_marker_2f7451bd2ca54c0e9363a9131bbacd9a = L.circleMarker(
+                [33.42263,-111.940813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_c2f88c187f184d2ab72fac47cc84793a = L.popup({maxWidth: '300'});
+
+            
+                var html_0a33fbcce1234ea0ac4989e6beceea41 = $('<div id="html_0a33fbcce1234ea0ac4989e6beceea41" style="width: 100.0%; height: 100.0%;">P F Chang&#39;s China Bistro / Stars:3.23 / Senti:0.21 / (fried shrimp)</div>')[0];
+                popup_c2f88c187f184d2ab72fac47cc84793a.setContent(html_0a33fbcce1234ea0ac4989e6beceea41);
+            
+
+            circle_marker_2f7451bd2ca54c0e9363a9131bbacd9a.bindPopup(popup_c2f88c187f184d2ab72fac47cc84793a);
+
+            
+        
+    
+            var circle_marker_1d4f4636e1ee45a2b023e9e5dc4f889f = L.circleMarker(
+                [33.493973,-112.2920313],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_22c0c0343d264c468e6ae2690c7b9eff = L.popup({maxWidth: '300'});
+
+            
+                var html_c7c2d2603a734a79bf26c413a26f5934 = $('<div id="html_c7c2d2603a734a79bf26c413a26f5934" style="width: 100.0%; height: 100.0%;">Golden China / Stars:3.21 / Senti:0.17 / (fried shrimp)</div>')[0];
+                popup_22c0c0343d264c468e6ae2690c7b9eff.setContent(html_c7c2d2603a734a79bf26c413a26f5934);
+            
+
+            circle_marker_1d4f4636e1ee45a2b023e9e5dc4f889f.bindPopup(popup_22c0c0343d264c468e6ae2690c7b9eff);
+
+            
+        
+    
+            var regular_polygon_marker_d751fcf3f46f4d02bc9ba003522cee2c = new L.RegularPolygonMarker(
+                new L.LatLng(33.455418,-111.987786),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'green',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'green',
+                    fillOpacity: 0.6,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_0f9084a7f1884294be72f32d006696a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_65cba19040c142feb3c1f76c6c5405f4 = $('<div id="html_65cba19040c142feb3c1f76c6c5405f4" style="width: 100.0%; height: 100.0%;">Lao Ching Hing / Stars:3.27 / Senti:0.19 / (beef noodle soup)</div>')[0];
+                popup_0f9084a7f1884294be72f32d006696a7.setContent(html_65cba19040c142feb3c1f76c6c5405f4);
+            
+
+            regular_polygon_marker_d751fcf3f46f4d02bc9ba003522cee2c.bindPopup(popup_0f9084a7f1884294be72f32d006696a7);
+
+            
+        
+    
+            var regular_polygon_marker_1f95a78466a0489ea1883df4026fe913 = new L.RegularPolygonMarker(
+                new L.LatLng(33.246989,-111.8411151),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'green',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'green',
+                    fillOpacity: 0.6,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_4a50da2a5e86463ca8f31479b8201ea5 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e702e931ca246eb9352a999acca3751 = $('<div id="html_9e702e931ca246eb9352a999acca3751" style="width: 100.0%; height: 100.0%;">Pho Chandler / Stars:4.18 / Senti:0.34 / (beef noodle soup)</div>')[0];
+                popup_4a50da2a5e86463ca8f31479b8201ea5.setContent(html_9e702e931ca246eb9352a999acca3751);
+            
+
+            regular_polygon_marker_1f95a78466a0489ea1883df4026fe913.bindPopup(popup_4a50da2a5e86463ca8f31479b8201ea5);
+
+            
+        
+    
+            var regular_polygon_marker_db485e885908477cac74a6d38eea5aad = new L.RegularPolygonMarker(
+                new L.LatLng(33.4552907,-111.9878697),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'green',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'green',
+                    fillOpacity: 0.6,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_98a97c95bad74560a5e230301083687a = L.popup({maxWidth: '300'});
+
+            
+                var html_2ee665060e894d6bb061c47506f7426d = $('<div id="html_2ee665060e894d6bb061c47506f7426d" style="width: 100.0%; height: 100.0%;">Hong Kong Express / Stars:3.17 / Senti:0.15 / (beef noodle soup)</div>')[0];
+                popup_98a97c95bad74560a5e230301083687a.setContent(html_2ee665060e894d6bb061c47506f7426d);
+            
+
+            regular_polygon_marker_db485e885908477cac74a6d38eea5aad.bindPopup(popup_98a97c95bad74560a5e230301083687a);
+
+            
+        
+    
+            var regular_polygon_marker_847dada960ad42df97bd507006cef991 = new L.RegularPolygonMarker(
+                new L.LatLng(33.4483771,-112.0740373),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'green',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'green',
+                    fillOpacity: 0.6,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_c8de9c7a582b488ca7409af696f16bd5 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6a7d65fb0f047b1b92a373767a0e323 = $('<div id="html_f6a7d65fb0f047b1b92a373767a0e323" style="width: 100.0%; height: 100.0%;">Hao Bao / Stars:4.43 / Senti:0.27 / (beef noodle soup)</div>')[0];
+                popup_c8de9c7a582b488ca7409af696f16bd5.setContent(html_f6a7d65fb0f047b1b92a373767a0e323);
+            
+
+            regular_polygon_marker_847dada960ad42df97bd507006cef991.bindPopup(popup_c8de9c7a582b488ca7409af696f16bd5);
+
+            
+        
+    
+            var regular_polygon_marker_f1eb23fa7b7a41e095a1b85baa5b3614 = new L.RegularPolygonMarker(
+                new L.LatLng(33.391588,-111.938405),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'green',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'green',
+                    fillOpacity: 0.6,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_03e44402ab2b4cd4a71bd74557317df6 = L.popup({maxWidth: '300'});
+
+            
+                var html_2d7af7108a8541278783ba4cbcc7c7cc = $('<div id="html_2d7af7108a8541278783ba4cbcc7c7cc" style="width: 100.0%; height: 100.0%;">Henry&#39;s Taiwan Kitchen / Stars:3.55 / Senti:0.17 / (beef noodle soup)</div>')[0];
+                popup_03e44402ab2b4cd4a71bd74557317df6.setContent(html_2d7af7108a8541278783ba4cbcc7c7cc);
+            
+
+            regular_polygon_marker_f1eb23fa7b7a41e095a1b85baa5b3614.bindPopup(popup_03e44402ab2b4cd4a71bd74557317df6);
+
+            
+        
+    
+            var regular_polygon_marker_ee5bbc8c2117416b8c2a0854252b0a60 = new L.RegularPolygonMarker(
+                new L.LatLng(33.3193740844727,-111.929328918457),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'green',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'green',
+                    fillOpacity: 0.6,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_593f76ad4f204d9583508f1a9d9c7e1e = L.popup({maxWidth: '300'});
+
+            
+                var html_9e63718287734b38877e0c553d980437 = $('<div id="html_9e63718287734b38877e0c553d980437" style="width: 100.0%; height: 100.0%;">Szechwan Garden / Stars:3.96 / Senti:0.24 / (beef noodle soup)</div>')[0];
+                popup_593f76ad4f204d9583508f1a9d9c7e1e.setContent(html_9e63718287734b38877e0c553d980437);
+            
+
+            regular_polygon_marker_ee5bbc8c2117416b8c2a0854252b0a60.bindPopup(popup_593f76ad4f204d9583508f1a9d9c7e1e);
+
+            
+        
+    
+            var regular_polygon_marker_2444d9fc135247739c6b1a0005e508aa = new L.RegularPolygonMarker(
+                new L.LatLng(33.3197988,-111.929773),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'green',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'green',
+                    fillOpacity: 0.6,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_5786316a6d41438f938770c9305cef91 = L.popup({maxWidth: '300'});
+
+            
+                var html_36733908e5ca42b9905e10cac18ffddc = $('<div id="html_36733908e5ca42b9905e10cac18ffddc" style="width: 100.0%; height: 100.0%;">iKitchen / Stars:3.55 / Senti:0.18 / (beef noodle soup)</div>')[0];
+                popup_5786316a6d41438f938770c9305cef91.setContent(html_36733908e5ca42b9905e10cac18ffddc);
+            
+
+            regular_polygon_marker_2444d9fc135247739c6b1a0005e508aa.bindPopup(popup_5786316a6d41438f938770c9305cef91);
+
+            
+        
+    
+            var regular_polygon_marker_b834ab243fc7420db4c76240e7807ba8 = new L.RegularPolygonMarker(
+                new L.LatLng(33.488489,-112.100389),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'green',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'green',
+                    fillOpacity: 0.6,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_96dfb6119e65455ebeea8ddacf06a9a6 = L.popup({maxWidth: '300'});
+
+            
+                var html_9ad59b7c32d04a45a744585e983d43fa = $('<div id="html_9ad59b7c32d04a45a744585e983d43fa" style="width: 100.0%; height: 100.0%;">Maxim Restaurant / Stars:3.98 / Senti:0.26 / (beef noodle soup)</div>')[0];
+                popup_96dfb6119e65455ebeea8ddacf06a9a6.setContent(html_9ad59b7c32d04a45a744585e983d43fa);
+            
+
+            regular_polygon_marker_b834ab243fc7420db4c76240e7807ba8.bindPopup(popup_96dfb6119e65455ebeea8ddacf06a9a6);
+
+            
+        
+    
+            var regular_polygon_marker_2c2255a1bd7143a1b0547db329dd84ec = new L.RegularPolygonMarker(
+                new L.LatLng(33.3788895536548,-111.779750682853),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'green',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'green',
+                    fillOpacity: 0.6,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_5f04b750c8484e419534adf93bb933ac = L.popup({maxWidth: '300'});
+
+            
+                var html_65b7824ed8d847e9b41c3db3ce495721 = $('<div id="html_65b7824ed8d847e9b41c3db3ce495721" style="width: 100.0%; height: 100.0%;">Simi&#39;s Cafe / Stars:4.54 / Senti:0.33 / (beef noodle soup)</div>')[0];
+                popup_5f04b750c8484e419534adf93bb933ac.setContent(html_65b7824ed8d847e9b41c3db3ce495721);
+            
+
+            regular_polygon_marker_2c2255a1bd7143a1b0547db329dd84ec.bindPopup(popup_5f04b750c8484e419534adf93bb933ac);
+
+            
+        
+    
+            var regular_polygon_marker_677b7728aa6e44029b3e733707f2945b = new L.RegularPolygonMarker(
+                new L.LatLng(33.480771,-112.09158),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'green',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'green',
+                    fillOpacity: 0.6,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_e83a249241c94199afcb4dd32e8181e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_c68d70905dfd4d1096c9d6d4e8e88a8d = $('<div id="html_c68d70905dfd4d1096c9d6d4e8e88a8d" style="width: 100.0%; height: 100.0%;">Mu Shu Asian Grill / Stars:4.32 / Senti:0.29 / (beef noodle soup)</div>')[0];
+                popup_e83a249241c94199afcb4dd32e8181e2.setContent(html_c68d70905dfd4d1096c9d6d4e8e88a8d);
+            
+
+            regular_polygon_marker_677b7728aa6e44029b3e733707f2945b.bindPopup(popup_e83a249241c94199afcb4dd32e8181e2);
+
+            
+        
+    
+            var regular_polygon_marker_7ccf66f5710c4c2689ba874b74c4d512 = new L.RegularPolygonMarker(
+                new L.LatLng(33.336409,-111.876379),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'green',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'green',
+                    fillOpacity: 0.6,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_06b55afeec144faab0f090b11f302aca = L.popup({maxWidth: '300'});
+
+            
+                var html_e146811e87544e6bae19be102614fc8a = $('<div id="html_e146811e87544e6bae19be102614fc8a" style="width: 100.0%; height: 100.0%;">China Magic Noodle House / Stars:4.01 / Senti:0.27 / (beef noodle soup)</div>')[0];
+                popup_06b55afeec144faab0f090b11f302aca.setContent(html_e146811e87544e6bae19be102614fc8a);
+            
+
+            regular_polygon_marker_7ccf66f5710c4c2689ba874b74c4d512.bindPopup(popup_06b55afeec144faab0f090b11f302aca);
+
+            
+        
+    
+            var regular_polygon_marker_41091bc87f974f29b792ca4b5d1143db = new L.RegularPolygonMarker(
+                new L.LatLng(33.3196046,-111.8592606),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'green',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'green',
+                    fillOpacity: 0.6,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_f95db1b7a5e64f4b993f0dd06e033e8c = L.popup({maxWidth: '300'});
+
+            
+                var html_a02322d1bfd1459582988597c456a162 = $('<div id="html_a02322d1bfd1459582988597c456a162" style="width: 100.0%; height: 100.0%;">Chou&#39;s Kitchen / Stars:4.06 / Senti:0.24 / (beef noodle soup)</div>')[0];
+                popup_f95db1b7a5e64f4b993f0dd06e033e8c.setContent(html_a02322d1bfd1459582988597c456a162);
+            
+
+            regular_polygon_marker_41091bc87f974f29b792ca4b5d1143db.bindPopup(popup_f95db1b7a5e64f4b993f0dd06e033e8c);
+
+            
+        
+    
+            var regular_polygon_marker_2fc369654e72444080d966e95801031d = new L.RegularPolygonMarker(
+                new L.LatLng(33.48585,-112.0691813),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_746fe12bc12a42e4821a838d3980fe47 = L.popup({maxWidth: '300'});
+
+            
+                var html_4ad2ec72abb847d0ac4878498117a4a0 = $('<div id="html_4ad2ec72abb847d0ac4878498117a4a0" style="width: 100.0%; height: 100.0%;">China Chili / Stars:3.79 / Senti:0.20 / (peking duck)</div>')[0];
+                popup_746fe12bc12a42e4821a838d3980fe47.setContent(html_4ad2ec72abb847d0ac4878498117a4a0);
+            
+
+            regular_polygon_marker_2fc369654e72444080d966e95801031d.bindPopup(popup_746fe12bc12a42e4821a838d3980fe47);
+
+            
+        
+    
+            var regular_polygon_marker_22faa04d8e3f4c92b7c5f8ba5496c06d = new L.RegularPolygonMarker(
+                new L.LatLng(33.5108736,-112.1341836),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_702d72a142fd4613b5a12378ffd2594e = L.popup({maxWidth: '300'});
+
+            
+                var html_491f439998d74ec5a4d4ca7f18801434 = $('<div id="html_491f439998d74ec5a4d4ca7f18801434" style="width: 100.0%; height: 100.0%;">Great Wall Cuisine / Stars:3.81 / Senti:0.24 / (peking duck)</div>')[0];
+                popup_702d72a142fd4613b5a12378ffd2594e.setContent(html_491f439998d74ec5a4d4ca7f18801434);
+            
+
+            regular_polygon_marker_22faa04d8e3f4c92b7c5f8ba5496c06d.bindPopup(popup_702d72a142fd4613b5a12378ffd2594e);
+
+            
+        
+    
+            var regular_polygon_marker_64b7490c40c34f62992ac90f6e7989b5 = new L.RegularPolygonMarker(
+                new L.LatLng(33.321976,-111.928947),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_ed28b86f1b6e4b6e9a390b80721da3f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_8304376700cb486eab6eeba655aff0e8 = $('<div id="html_8304376700cb486eab6eeba655aff0e8" style="width: 100.0%; height: 100.0%;">Hong Kong Asian Diner / Stars:3.70 / Senti:0.19 / (peking duck)</div>')[0];
+                popup_ed28b86f1b6e4b6e9a390b80721da3f5.setContent(html_8304376700cb486eab6eeba655aff0e8);
+            
+
+            regular_polygon_marker_64b7490c40c34f62992ac90f6e7989b5.bindPopup(popup_ed28b86f1b6e4b6e9a390b80721da3f5);
+
+            
+        
+    
+            var regular_polygon_marker_983155e0124846aa81e64725ff28fdf6 = new L.RegularPolygonMarker(
+                new L.LatLng(33.509651,-112.075703),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_5199293c53814a3da3f0c01b8693fe15 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6a21f04a0134cec9e02880ff27895e0 = $('<div id="html_f6a21f04a0134cec9e02880ff27895e0" style="width: 100.0%; height: 100.0%;">The Prime Chinese Restaurant / Stars:4.14 / Senti:0.22 / (peking duck)</div>')[0];
+                popup_5199293c53814a3da3f0c01b8693fe15.setContent(html_f6a21f04a0134cec9e02880ff27895e0);
+            
+
+            regular_polygon_marker_983155e0124846aa81e64725ff28fdf6.bindPopup(popup_5199293c53814a3da3f0c01b8693fe15);
+
+            
+        
+    
+            var regular_polygon_marker_25799f84b6484dd3adf219630a8a71ef = new L.RegularPolygonMarker(
+                new L.LatLng(33.394432,-111.875578),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_e2b6db6d947c42f3932e53fce5ababe2 = L.popup({maxWidth: '300'});
+
+            
+                var html_7b0e837c986f4520bb95811295559383 = $('<div id="html_7b0e837c986f4520bb95811295559383" style="width: 100.0%; height: 100.0%;">Best Hong Kong Dining / Stars:3.57 / Senti:0.22 / (peking duck)</div>')[0];
+                popup_e2b6db6d947c42f3932e53fce5ababe2.setContent(html_7b0e837c986f4520bb95811295559383);
+            
+
+            regular_polygon_marker_25799f84b6484dd3adf219630a8a71ef.bindPopup(popup_e2b6db6d947c42f3932e53fce5ababe2);
+
+            
+        
+    
+            var regular_polygon_marker_25fc5644b4674119b6b1f9b4993a5141 = new L.RegularPolygonMarker(
+                new L.LatLng(33.3370652758707,-111.875395510879),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_b1d27a3f554d4910a68670b32b4447ec = L.popup({maxWidth: '300'});
+
+            
+                var html_2d6179abbc8f4f359421f00f131db0e0 = $('<div id="html_2d6179abbc8f4f359421f00f131db0e0" style="width: 100.0%; height: 100.0%;">Phoenix Palace / Stars:3.68 / Senti:0.20 / (peking duck)</div>')[0];
+                popup_b1d27a3f554d4910a68670b32b4447ec.setContent(html_2d6179abbc8f4f359421f00f131db0e0);
+            
+
+            regular_polygon_marker_25fc5644b4674119b6b1f9b4993a5141.bindPopup(popup_b1d27a3f554d4910a68670b32b4447ec);
+
+            
+        
+    
+            var regular_polygon_marker_6efe6e08ad174b908a4ea0dfb3af7798 = new L.RegularPolygonMarker(
+                new L.LatLng(33.6128817,-111.9777891),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_a682c0624ca24f99965f36fec08f5bcb = L.popup({maxWidth: '300'});
+
+            
+                var html_b73c0c8f1bd24a77b624de5c2164fa7d = $('<div id="html_b73c0c8f1bd24a77b624de5c2164fa7d" style="width: 100.0%; height: 100.0%;">Nee House Chinese Restaurant / Stars:3.62 / Senti:0.20 / (peking duck)</div>')[0];
+                popup_a682c0624ca24f99965f36fec08f5bcb.setContent(html_b73c0c8f1bd24a77b624de5c2164fa7d);
+            
+
+            regular_polygon_marker_6efe6e08ad174b908a4ea0dfb3af7798.bindPopup(popup_a682c0624ca24f99965f36fec08f5bcb);
+
+            
+        
+    
+            var regular_polygon_marker_de11827f6a8b42918979a7d706f619f0 = new L.RegularPolygonMarker(
+                new L.LatLng(33.5532624,-112.0554926),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_7c59fabbbfd846c9ba21379e9e6c8110 = L.popup({maxWidth: '300'});
+
+            
+                var html_360aa38952b243d28e62dda625b37a16 = $('<div id="html_360aa38952b243d28e62dda625b37a16" style="width: 100.0%; height: 100.0%;">Super Dragon / Stars:3.75 / Senti:0.20 / (peking duck)</div>')[0];
+                popup_7c59fabbbfd846c9ba21379e9e6c8110.setContent(html_360aa38952b243d28e62dda625b37a16);
+            
+
+            regular_polygon_marker_de11827f6a8b42918979a7d706f619f0.bindPopup(popup_7c59fabbbfd846c9ba21379e9e6c8110);
+
+            
+        
+    
+            var regular_polygon_marker_8e7520e9dbe44a48ac03a8746b4c231f = new L.RegularPolygonMarker(
+                new L.LatLng(33.5831363850351,-111.894196271896),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_aefb27de665e483ca5f031117fefe9f1 = L.popup({maxWidth: '300'});
+
+            
+                var html_8cd94a59f7974e27889c3b4b4be4b2fd = $('<div id="html_8cd94a59f7974e27889c3b4b4be4b2fd" style="width: 100.0%; height: 100.0%;">Bamboo Club / Stars:3.13 / Senti:0.20 / (peking duck)</div>')[0];
+                popup_aefb27de665e483ca5f031117fefe9f1.setContent(html_8cd94a59f7974e27889c3b4b4be4b2fd);
+            
+
+            regular_polygon_marker_8e7520e9dbe44a48ac03a8746b4c231f.bindPopup(popup_aefb27de665e483ca5f031117fefe9f1);
+
+            
+        
+    
+            var regular_polygon_marker_6157683c3ead45e8863ef17d55ce01ab = new L.RegularPolygonMarker(
+                new L.LatLng(33.4974812,-112.0739922),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_de664d1b44af463a91a6b5fa3a55e460 = L.popup({maxWidth: '300'});
+
+            
+                var html_6076ee2b3aa144b98360b03aefa1a83c = $('<div id="html_6076ee2b3aa144b98360b03aefa1a83c" style="width: 100.0%; height: 100.0%;">The Clever Koi / Stars:3.90 / Senti:0.28 / (peking duck)</div>')[0];
+                popup_de664d1b44af463a91a6b5fa3a55e460.setContent(html_6076ee2b3aa144b98360b03aefa1a83c);
+            
+
+            regular_polygon_marker_6157683c3ead45e8863ef17d55ce01ab.bindPopup(popup_de664d1b44af463a91a6b5fa3a55e460);
+
+            
+        
+    
+            var regular_polygon_marker_e67e817eb33343e5b4970540cf933bb3 = new L.RegularPolygonMarker(
+                new L.LatLng(33.623019,-111.875449),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_476fd12b0ca54301a1442b9e2677e752 = L.popup({maxWidth: '300'});
+
+            
+                var html_0373b6506f2f45a0a6c405bcb678b92a = $('<div id="html_0373b6506f2f45a0a6c405bcb678b92a" style="width: 100.0%; height: 100.0%;">Flo&#39;s / Stars:3.60 / Senti:0.21 / (peking duck)</div>')[0];
+                popup_476fd12b0ca54301a1442b9e2677e752.setContent(html_0373b6506f2f45a0a6c405bcb678b92a);
+            
+
+            regular_polygon_marker_e67e817eb33343e5b4970540cf933bb3.bindPopup(popup_476fd12b0ca54301a1442b9e2677e752);
+
+            
+        
+    
+            var regular_polygon_marker_0396bc85471e49b1bbc4846eaa5cdd99 = new L.RegularPolygonMarker(
+                new L.LatLng(33.3358421,-111.8590862),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_ffb723af529248f1bae4c26ba9eecf5f = L.popup({maxWidth: '300'});
+
+            
+                var html_b3d83bcfd8834195a5c0e5c6f9044931 = $('<div id="html_b3d83bcfd8834195a5c0e5c6f9044931" style="width: 100.0%; height: 100.0%;">Tao Garden / Stars:3.80 / Senti:0.21 / (peking duck)</div>')[0];
+                popup_ffb723af529248f1bae4c26ba9eecf5f.setContent(html_b3d83bcfd8834195a5c0e5c6f9044931);
+            
+
+            regular_polygon_marker_0396bc85471e49b1bbc4846eaa5cdd99.bindPopup(popup_ffb723af529248f1bae4c26ba9eecf5f);
+
+            
+        
+    
+            var regular_polygon_marker_0f11b889ff5140cea3af7ea0bc1b85c9 = new L.RegularPolygonMarker(
+                new L.LatLng(33.4552907,-111.9878697),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_d6c9540811e0404193a6c53362d009b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_922132b5c5084b148d0f812dc5b45b6e = $('<div id="html_922132b5c5084b148d0f812dc5b45b6e" style="width: 100.0%; height: 100.0%;">Golden Buddha / Stars:3.11 / Senti:0.15 / (peking duck)</div>')[0];
+                popup_d6c9540811e0404193a6c53362d009b2.setContent(html_922132b5c5084b148d0f812dc5b45b6e);
+            
+
+            regular_polygon_marker_0f11b889ff5140cea3af7ea0bc1b85c9.bindPopup(popup_d6c9540811e0404193a6c53362d009b2);
+
+            
+        
+    
+            var regular_polygon_marker_ce1ace28ed9e49ee8cd04571f74ee28f = new L.RegularPolygonMarker(
+                new L.LatLng(33.4133505,-111.8759922),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_539188bfd7814cb8b254feaaa027c10d = L.popup({maxWidth: '300'});
+
+            
+                var html_cd585d0821b845e88a79570e579ebb0f = $('<div id="html_cd585d0821b845e88a79570e579ebb0f" style="width: 100.0%; height: 100.0%;">Mekong Palace / Stars:3.59 / Senti:0.20 / (peking duck)</div>')[0];
+                popup_539188bfd7814cb8b254feaaa027c10d.setContent(html_cd585d0821b845e88a79570e579ebb0f);
+            
+
+            regular_polygon_marker_ce1ace28ed9e49ee8cd04571f74ee28f.bindPopup(popup_539188bfd7814cb8b254feaaa027c10d);
+
+            
+        
+    
+            var regular_polygon_marker_0ac9e703265e487ea53161446ae62259 = new L.RegularPolygonMarker(
+                new L.LatLng(33.466043,-112.05026),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_98d5f9c4ea3347e0bbd07bc14e192a9f = L.popup({maxWidth: '300'});
+
+            
+                var html_4fd2c7d5de764eb4b220a95c1c6efd39 = $('<div id="html_4fd2c7d5de764eb4b220a95c1c6efd39" style="width: 100.0%; height: 100.0%;">Gourmet House of Hong Kong / Stars:3.49 / Senti:0.17 / (peking duck)</div>')[0];
+                popup_98d5f9c4ea3347e0bbd07bc14e192a9f.setContent(html_4fd2c7d5de764eb4b220a95c1c6efd39);
+            
+
+            regular_polygon_marker_0ac9e703265e487ea53161446ae62259.bindPopup(popup_98d5f9c4ea3347e0bbd07bc14e192a9f);
+
+            
+        
+    
+            var regular_polygon_marker_1b6ee07c286641f48e3b5e600124f638 = new L.RegularPolygonMarker(
+                new L.LatLng(33.583566,-111.8832364),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'blue',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.6,
+                    numberOfSides: 3,
+                    rotation: 0,
+                    radius: 5
+                    }
+                )
+                .addTo(map_e87059edaa374230a1c5900008caaf6d);
+            
+    
+            var popup_fe769f9374f24332bb77ad6d3adedbbc = L.popup({maxWidth: '300'});
+
+            
+                var html_a69352afec0b4f57b9173a23d800726f = $('<div id="html_a69352afec0b4f57b9173a23d800726f" style="width: 100.0%; height: 100.0%;">Jade Palace / Stars:3.69 / Senti:0.22 / (peking duck)</div>')[0];
+                popup_fe769f9374f24332bb77ad6d3adedbbc.setContent(html_a69352afec0b4f57b9173a23d800726f);
+            
+
+            regular_polygon_marker_1b6ee07c286641f48e3b5e600124f638.bindPopup(popup_fe769f9374f24332bb77ad6d3adedbbc);
+
+            
+        
+</script>
